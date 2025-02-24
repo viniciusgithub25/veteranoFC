@@ -1,0 +1,15 @@
+      /* estilo tela de erro login*/
+      .error-container {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .error-message {
+        background-color: #ffcccc;
+        color: #a00;
+        padding: 15px;
+        border: 1px solid #a00;
+        border-radius: 5px;
+        font-size: 18px;
+        width: 50%;
+        margin: auto;
+    }

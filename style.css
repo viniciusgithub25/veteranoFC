@@ -1,0 +1,203 @@
+header {
+  background-color: #004EA2; /* Cor inspirada no Real Madrid */
+  color: #FFFFFF;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px; /* Opcional */
+}
+
+/* Ajuste na logo dos 25 anos */
+.logo25 {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  gap: 10px; /* Espaço entre a imagem e o texto */
+}
+
+/* Ajusta o tamanho da imagem 25 anos */
+.logo25 img {
+  width: 80px;
+  height: auto;
+  border-radius: 10px; /* Opcional */
+}
+
+/* Organiza o texto */
+.logo-texto {
+  display: flex;
+  flex-direction: column; /* Organiza a imagem e o h2 na vertical */
+  align-items: center; /* Centraliza na horizontal */
+}
+
+.logo-texto img {
+  width: 80px;
+  height: auto;
+}
+
+.logo-texto h2 {
+  margin: 5px 0 0;
+  font-size: 20px;
+  text-align: center;
+}
+/* Estilização do texto ao lado */
+.logo25 p {
+  font-size: 16px;
+  margin: 0;
+
+}
+
+/* Estilização do menu de navegação */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  color: #a8a8a6; /* Cor de destaque ao passar o mouse */
+}
+
+/* Roda pé */
+.footer .lifooter{
+  margin-left: 0px;
+  width: 100px;
+  height: 20px;
+  font-size:10px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+form {
+    width: 300px;
+    margin: 10px auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #004EA2; /* Cor inspirada no Real Madrid */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*estilo carrossel comum */
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .swiper {
+      /*width: 50px;*/
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-position: center;
+      width: 80%; /* ou um valor fixo, como 600px */
+      max-width: 800px;
+      height: 300px; /* Ajuste conforme necessário */
+      margin: auto;
+      overflow: hidden;
+    }
+    /*.swiper-container{
+      background-position: center;
+    }*/
+    
+    .swiper-slide {
+      display: flex;  /* Usa flexbox para alinhar o conteúdo */
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center; /* Centraliza verticalmente */
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 40%;
+      height: auto;
+      max-height: 150%;
+      object-fit: contain; /* Mantém a imagem sem cortes */
+      /*object-fit: cover;  Para ajustar a imagem sem distorcer */
+     
+    }
+
+    /*Estilo noticias */
+    .noticias {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+      gap: 20px; /* Espaçamento entre as notícias */
+      
+      
+  }
+  
+  .noticia img {
+      width: 100%;
+      height: auto;
+      max-width: 800px;
+      height: 300px;
+      
+  }
+
+  /*Mensagem de jogo inserido */
+  .mensagem {
+    background-color: #dff0d8;
+    color:rgb(57, 7, 183);
+    padding: 10px;
+    border: 1px solid #d6e9c6;
+    margin: 10px 0;
+    display: none;
+    text-align: center;
+}
