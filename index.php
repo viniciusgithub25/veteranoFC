@@ -27,7 +27,7 @@ session_start();
             </div>
                <p>Bem-vindo ao Grupo de Amigos Veterano 5 Marias.</p>
         </div>
-<!-- 
+ 
         <nav>
             <ul>
                 <li><a href="index.php" title="home">Home</a></li>
@@ -44,7 +44,7 @@ session_start();
                 }
                 ?>
             </ul>
-        </nav>-->
+        </nav>   
     </header>
      <!-- Swiper carrossel-->
   <div class="swiper mySwiper">
@@ -144,7 +144,7 @@ session_start();
               </a>
           </li>
           <li class="sponsor-item">
-              <a href="https://www.instagram.com/deposito_da_glaucia?igsh=ZXZxdDZzM2t5MmY3" target="_blank" title="Depósito da PRAÇA">
+              <a href="https://www." target="_blank" title="Depósito da PRAÇA">
                   <img src="img/patrocinadores/depositodapraca2.jpg" alt="DEPOSITO DA PRAÇA">
               </a>
           </li>
@@ -177,7 +177,7 @@ session_start();
                 </a>
             </li>
             <li class="sponsor-item">
-                <a href="https://www.instagram.com/lfcell.fernandes?igsh=aWxwandldXZrN295" target="_blank" title="LF Cell Assistência Técnica ">
+                <a href="https://www." target="_blank" title="LF Cell Assistência Técnica ">
                     <img src="img/patrocinadores/leocell.jpg" alt="LF Cell Assistência Técnica">
                 </a>
             </li>
@@ -187,8 +187,8 @@ session_start();
                 </a>
             </li>
             <li class="sponsor-item">
-                <a href="https://www." target="_blank" title="Padaria O Rei do pão">
-                    <img src="img/patrocinadores/reidopao.jpg" alt="Padaria O Rei do pão">
+                <a href="https://www." target="_blank" title="Paaria O Rei do pão">
+                    <img src="img/patrocinadores/reidopao.jpg" alt="Paaria O Rei do pão">
                 </a>
             </li>
             <li class="sponsor-item">
@@ -221,7 +221,7 @@ session_start();
                   VETERANO 5 MARIAS
               </a>
           </div>
-        <!-- 
+        
           <nav class="footer">
             <ul>
                 <li class="lifooter"><a href="index.php">Home</a></li>
@@ -230,7 +230,7 @@ session_start();
                 <li class="lifooter"><a href="login.html">Login</a></li>
                 <li class="lifooter"><a href="cadastro.html">Cadastro</a></li>
             </ul>
-        </nav>-->
+        </nav>
   
           
           <div class="footer-social">
@@ -260,4 +260,4 @@ session_start();
   
   
 </body>
-</html>
+</html> 
