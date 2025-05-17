@@ -1,0 +1,146 @@
+/* Results page specific styles */
+.statistics-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 992px) {
+    .statistics-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.stats-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stats-section h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3498db;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Match results */
+.match-results {
+    margin-bottom: 1.5rem;
+}
+
+.match {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.team {
+    font-weight: bold;
+    flex: 1;
+}
+
+.team-orange {
+    color: #e67e22;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.team-green {
+    color: #27ae60;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.score {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.coaches {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Overall Stats */
+.overall-stats {
+    margin-top: 1.5rem;
+}
+
+.overall-stats h4 {
+    margin-bottom: 0.5rem;
+}
+
+.team-stats {
+    display: flex;
+    gap: 20px;
+}
+
+.team-stat {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.team-stat.team-orange {
+    background-color: rgba(230, 126, 34, 0.1);
+}
+
+.team-stat.team-green {
+    background-color: rgba(39, 174, 96, 0.1);
+}
+
+/* Cards */
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.yellow-cards h4 {
+    color: #f39c12;
+    margin-bottom: 0.5rem;
+}
+
+.red-cards h4 {
+    color: #c0392b;
+    margin-bottom: 0.5rem;
+}
