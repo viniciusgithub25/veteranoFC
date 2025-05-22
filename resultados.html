@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="style-resultados.css">
-
+    <link rel="stylesheet" href="style-resultados copy.css">
+    <link rel="stylesheet" href="style-resultados-modified.css">
 </head>
 <body>
     <header>
@@ -73,115 +74,236 @@
                     </table>
                 </div>
 
-                <!-- Resultados -->
-                <div class="stats-section">
-                    <h3>Resultados</h3>
-                    <div class="match-results">
-                        <div class="match">
-                            <div class="date">15/05/2023</div>
-                            <div class="teams">
-                                <span class="team team-orange">Laranja</span>
-                                <span class="score">3 x 2</span>
-                                <span class="team team-green">Verde</span>
+                <!-- Resultados e Cartões em um flex container -->
+                <div class="results-cards-container">
+                    <!-- Resultados -->
+                    <div class="stats-section results-section">
+                        <h3>Resultados</h3>
+                        <div class="match-results">
+                            <div class="card-container">
+                                <div class="card">
+                                    <div class="accordion-header">Resultados por mês <span class="toggle-icon">&#9660;</span></div>
+                                    
+                                    <!-- Março 2025 -->
+                                    <div class="accordion-item">
+                                        <div class="month-header">MARÇO 2025 <span class="toggle-icon">&#9660;</span></div>
+                                        <div class="month-content">
+                                            <table class="tabela-resultados">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Data</th>
+                                                        <th>Time 1</th>
+                                                        <th>Tirou</th>
+                                                        <th>Placar</th>
+                                                        <th>Time 2</th>
+                                                        <th>Tirou</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Abril 2025 -->
+                                    <div class="accordion-item">
+                                        <div class="month-header">ABRIL 2025 <span class="toggle-icon">&#9660;</span></div>
+                                        <div class="month-content">
+                                            <table class="tabela-resultados">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Data</th>
+                                                        <th>Time 1</th>
+                                                        <th>Tirou</th>
+                                                        <th>Placar</th>
+                                                        <th>Time 2</th>
+                                                        <th>Tirou</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Março 2024 -->
+                                    <div class="accordion-item">
+                                        <div class="month-header">MAIO 2025 <span class="toggle-icon">&#9660;</span></div>
+                                        <div class="month-content">
+                                            <table class="tabela-resultados">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Data</th>
+                                                        <th>Time 1</th>
+                                                        <th>Tirou</th>
+                                                        <th>Placar</th>
+                                                        <th>Time 2</th>
+                                                        <th>Tirou</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>data</td>
+                                                        <td>nome time 1</td>
+                                                        <td>nome tirou</td>
+                                                        <td>placar</td>
+                                                        <td>nome time 2</td>
+                                                        <td>nome tirou</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="coaches">
-                                <span>Rafael x </span>
-                                <span> Marcos</span>
-                            </div>
-                        </div>
-                        
-                        <div class="match">
-                            <div class="date">08/05/2023</div>
-                            <div class="teams">
-                                <span class="team team-orange">Laranja</span>
-                                <span class="score">2 x 2</span>
-                                <span class="team team-green">Verde</span>
-                            </div>
-                            <div class="coaches">
-                                <span>Técnico: Rafael</span>
-                                <span>Técnico: Marcos</span>
-                            </div>
-                        </div>
-                        
-                        <div class="match">
-                            <div class="date">01/05/2023</div>
-                            <div class="teams">
-                                <span class="team team-orange">Laranja</span>
-                                <span class="score">1 x 3</span>
-                                <span class="team team-green">Verde</span>
-                            </div>
-                            <div class="coaches">
-                                <span>Técnico: Rafael</span>
-                                <span>Técnico: Marcos</span>
+                            
+                            <div class="overall-stats">
+                                <h4>Estatísticas Gerais</h4>
+                                <div class="team-stats">
+                                    <div class="team-stat team-orange">
+                                        <h5>Laranja</h5>
+                                        <p>Vitórias: 1</p>
+                                        <p>Empates: 1</p>
+                                        <p>Derrotas: 1</p>
+                                    </div>
+                                    <div class="team-stat team-green">
+                                        <h5>Verde</h5>
+                                        <p>Vitórias: 1</p>
+                                        <p>Empates: 1</p>
+                                        <p>Derrotas: 1</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="overall-stats">
-                        <h4>Estatísticas Gerais</h4>
-                        <div class="team-stats">
-                            <div class="team-stat team-orange">
-                                <h5>Laranja</h5>
-                                <p>Vitórias: 1</p>
-                                <p>Empates: 1</p>
-                                <p>Derrotas: 1</p>
-                            </div>
-                            <div class="team-stat team-green">
-                                <h5>Verde</h5>
-                                <p>Vitórias: 1</p>
-                                <p>Empates: 1</p>
-                                <p>Derrotas: 1</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Cartões -->
-                <div class="stats-section">
-                    <h3>Cartões</h3>
-                    <div class="cards-container">
-                        <div class="yellow-cards">
-                            <h4>Cartões Amarelos</h4>
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Jogador</th>
-                                        <th>Qtd</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Bruno</td>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>André</td>
-                                        <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Paulo</td>
-                                        <td>1</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        
-                        <div class="red-cards">
-                            <h4>Cartões Vermelhos</h4>
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Jogador</th>
-                                        <th>Qtd</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Bruno</td>
-                                        <td>1</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <!-- Cartões -->
+                    <div class="stats-section cards-section">
+                        <h3>Cartões</h3>
+                        <div class="cards-container">
+                            <div class="yellow-cards">
+                                <h4>Cartões Amarelos</h4>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Jogador</th>
+                                            <th>Qtd</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Bruno</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>André</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Paulo</td>
+                                            <td>1</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div class="red-cards">
+                                <h4>Cartões Vermelhos</h4>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Jogador</th>
+                                            <th>Qtd</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Bruno</td>
+                                            <td>1</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -218,7 +340,7 @@
                     <li><a href="http://www.youtube.com/"><img src="img/youtube.png" alt="YouTube" target="_blank"></a></li>
               -->      
                     <li><a href="https://www.instagram.com/grupoamigosveteranos5marias?igsh=MTI1M2Fia2ZvMW1u" target="_blank"> <img src="img/INSTAGRAM.jpeg" alt="Instagram"></a></li>
-                    <li><a href="https://www.youtube.com/@amigosveteranos5mariasF.C" target="_blank"> <img src="img/YouTube-Logo-PNG-Download-Image.png" alt="página youtube"></a></li>
+                     <li><a href="https://www.youtube.com/@amigosveteranos5mariasF.C" target="_blank"> <img src="img/YouTube-Logo-PNG-Download-Image.png" alt="página youtube"></a></li>
                 </ul>
             </div>
     
@@ -231,5 +353,7 @@
             </div>
         </div>
     </footer>
+    <script src="resultados.js" defer></script>
+    
 </body>
 </html>

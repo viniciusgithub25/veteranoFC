@@ -1,0 +1,25 @@
+/* Container para resultados e cartões lado a lado */
+.results-cards-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Estilização específica para a seção de resultados */
+.results-section {
+    flex: 2; /* Seção de resultados ocupa mais espaço */
+    min-width: 400px;
+}
+
+/* Estilização específica para a seção de cartões */
+.cards-section {
+    flex: 1; /* Seção de cartões ocupa menos espaço */
+    min-width: 280px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+

@@ -20,6 +20,10 @@ header {
   align-items: center; /* Centraliza verticalmente */
   gap: 10px; /* Espaço entre a imagem e o texto */
 }
+.resultado {
+  display: flex;
+  
+}
 
 /* Ajusta o tamanho da imagem 25 anos */
 .logo25 img {
