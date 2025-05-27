@@ -87,6 +87,11 @@ table tbody tr:hover {
     text-align: left;
     padding-left: 1rem;
 }
+.team-tirou {
+    color: #eae30e;
+    text-align: left;
+    padding-left: 1rem;
+}
 
 .score {
     font-size: 1.2rem;
@@ -126,6 +131,9 @@ table tbody tr:hover {
 
 .team-stat.team-green {
     background-color: rgba(39, 174, 96, 0.1);
+}
+.team-stat.team-tirou {
+    background-color: rgba(238, 219, 8, 0.1);
 }
 
 /* Cards */
