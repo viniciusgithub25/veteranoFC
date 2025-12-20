@@ -1,11 +1,11 @@
-header {
-    background-color: #004EA2; /* Cor inspirada no Real Madrid */
+/*header {
+    background-color: #004EA2; 
     color: #FFFFFF;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}*/
 
 .logo img {
     width: 100px;
