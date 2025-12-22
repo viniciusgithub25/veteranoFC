@@ -206,3 +206,7 @@ html,
     display: none;
     text-align: center;
 }
+
+span{
+  font-size: 20px;
+}
