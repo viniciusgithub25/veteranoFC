@@ -1,0 +1,36 @@
+.videos-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.videos-container h1 {
+  margin-bottom: 30px;
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.video-card {
+  text-align: left;
+}
+
+.video-card iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-card iframe:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+
+.video-card h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #222;
+}
