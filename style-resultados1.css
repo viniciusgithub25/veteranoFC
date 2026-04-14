@@ -138,19 +138,27 @@ table tbody tr:hover {
 
 /* Cards */
 .cards-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
 }
 
 .yellow-cards h4 {
     color: #f39c12;
     margin-bottom: 0.5rem;
+    
 }
 
 .red-cards h4 {
     color: #c0392b;
     margin-bottom: 0.5rem;
+    
+}
+
+.yellow-cards,
+.red-cards {
+    flex: 1; /* divide espaço igualmente */
 }
 
 /*Acordeon */
